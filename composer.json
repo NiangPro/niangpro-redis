@@ -1,0 +1,25 @@
+{
+    "name": "niangpro/redis",
+    "description": "Client Redis sans extension, pilotes de session et de file d'attente.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NiangProgrammeur"
+        }
+    ],
+    "homepage": "https://github.com/NiangPro/niangpro",
+    "require": {
+        "php": ">=8.1",
+        "niangpro/core": "self.version"
+    },
+    "suggest": {
+        "niangpro/http": "Pilotes et ponts optionnels vers http.",
+        "niangpro/queue": "Pilotes et ponts optionnels vers queue."
+    },
+    "autoload": {
+        "psr-4": {
+            "Niang\\Core\\": "src/"
+        }
+    }
+}
